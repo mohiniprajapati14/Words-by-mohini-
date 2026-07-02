@@ -1,0 +1,52 @@
+
+body{
+margin:0;
+font-family:Arial;
+background:#0b0b0b;
+color:white;
+}
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:#000;
+}
+nav a{
+color:white;
+margin:0 10px;
+text-decoration:none;
+}
+.hire{
+background:gold;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+}
+.hero{
+display:flex;
+justify-content:space-between;
+padding:60px;
+}
+.hero h1{
+color:gold;
+font-size:50px;
+}
+.buttons button{
+margin-right:10px;
+padding:10px 20px;
+}
+.services{
+padding:40px;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:15px;
+}
+.grid div{
+background:#111;
+padding:20px;
+border:1px solid gold;
+text-align:center;
+}
