@@ -1,6 +1,0 @@
-@import "tailwindcss";
-
-body { background:black; color:white; }
-.gold-text { color:#d4af37; }
-.gold-button { background:#d4af37; color:black; padding:10px 20px; border-radius:999px; }
-.glass { background:rgba(255,255,255,0.05); backdrop-filter:blur(10px); }
