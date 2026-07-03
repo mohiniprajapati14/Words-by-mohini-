@@ -1,61 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Luxury Portfolio</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<div class="progress-bar"></div>
-<div class="cursor"></div>
-
 <header>
   <div class="logo">MOHINI</div>
-  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-  <nav id="nav">
+  <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
-    <a href="#work">Work</a>
+    <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <section id="home" class="hero">
-  <div class="hero-text">
-    <h1>I am <span class="typing"></span></h1>
-    <p>Modern luxury portfolio website</p>
-    <button onclick="scrollToSection('work')">View Work</button>
+  <div class="glass">
+    <h1>Creative Developer & Designer</h1>
+    <p>Building premium, luxury web experiences with modern UI/UX.</p>
+    <button onclick="scrollToSection('projects')">Explore Work</button>
   </div>
 </section>
 
-<section id="about">
-<h2>About</h2>
-<p>Clean modern portfolio design.</p>
+<section id="about" class="section reveal">
+  <h2>About Me</h2>
+  <p>I specialize in crafting modern, responsive and visually stunning websites with animation-driven interfaces.</p>
 </section>
 
-<section id="work">
-<h2>Work</h2>
-<div class="grid">
-<div class="card">Project 1</div>
-<div class="card">Project 2</div>
-<div class="card">Project 3</div>
-</div>
+<section id="projects" class="section reveal">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">Portfolio UI</div>
+    <div class="card">Landing Page</div>
+    <div class="card">E-commerce</div>
+  </div>
 </section>
 
-<section id="contact">
-<h2>Contact</h2>
-<form>
-<input placeholder="Name" required>
-<input placeholder="Email" required>
-<textarea placeholder="Message"></textarea>
-<button>Send</button>
-</form>
+<section id="contact" class="section reveal">
+  <h2>Contact</h2>
+  <p>Email: example@mail.com</p>
 </section>
 
-<footer class="footer">
-<p>© 2026 Portfolio</p>
+<footer>
+  <p>© 2026 Luxury Portfolio</p>
 </footer>
 
 <script src="script.js"></script>
